@@ -45,6 +45,7 @@ windows系统下无法使用 stop reload status 等命令
  [更多请访问www.workerman.net](http://www.workerman.net/workerman-chat)
 
 
+``` flow
 st=>start: Start:>http://www.google.com[blank]
 e=>end:>http://www.google.com
 op1=>operation: My Operation
@@ -56,8 +57,4 @@ io=>inputoutput: catch something...
 st->op1->cond
 cond(yes)->io->e
 cond(no)->sub1(right)->op1
-
-作者：不是程序
-链接：http://www.jianshu.com/p/39333840fdbf
-來源：简书
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+```
